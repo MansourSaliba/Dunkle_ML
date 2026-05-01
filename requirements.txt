@@ -1,4 +1,7 @@
-# Add project dependencies here, one per line.
-# numpy
-# pandas
-# scikit-learn
+numpy
+pandas
+matplotlib
+torch
+pysr
+sympy
+openpyxl
