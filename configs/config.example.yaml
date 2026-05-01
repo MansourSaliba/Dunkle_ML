@@ -1,0 +1,8 @@
+# Copy this to a project-specific config file and edit values.
+project_name: dunkle_ml
+random_seed: 42
+paths:
+  raw_data_dir: data/raw
+  interim_data_dir: data/interim
+  processed_data_dir: data/processed
+  model_dir: models
