@@ -1,8 +1,13 @@
 """
 =============================================================================
-Forward Dunkle Model — Single Slope Solar Still
+Forward Dunkle Model — Single Slope Solar Still (SYNTHETIC DATA GENERATION)
 =============================================================================
 Project : Data-Driven Discovery of the Dunkle Model
+
+⚠️  SCOPE: SYNTHETIC DATA ONLY
+    This script generates PUBLIC synthetic thermal data for testing and
+    validation. Experimental data is RESTRICTED and available upon request.
+    See DATA.md for full data access policy.
 
 Description
 -----------
@@ -18,6 +23,12 @@ forcing is generated to approximate Beirut, Lebanon conditions in May
 
 The output dataset (clean + noisy) is saved as a CSV file for use in the
 subsequent ML phases (SINDy, pySR, PINNs).
+
+Output Location
+---------------
+Generated files are saved to: data/processed/
+    - dunkle_clean.csv     (public, no noise)
+    - dunkle_noisy.csv     (public, with Gaussian noise)
 
 References
 ----------
