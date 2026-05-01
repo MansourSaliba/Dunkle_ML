@@ -1,0 +1,7 @@
+parameter,value,description
+c1,0.583015320001,a = c1 (decay rate)
+c2,-0.0368820105,coefficient of Ta(t) in F(t)
+c3,0.627712663,coefficient of Tgi(t) in F(t)
+c4,0.00498448763,coefficient of I(t) in F(t)
+c5,-0.168516954,bias term in F(t)
+tw0,23.0,learned initial condition for rollout

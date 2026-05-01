@@ -1,0 +1,2 @@
+config_id,lr,epochs,c1_init,c2_init,c3_init,c4_init,c5_init,tw0_init,w_data,w_res,w_ic,train_data_mse,val_data_mse,test_data_mse,train_rollout_deriv_mse,val_rollout_deriv_mse,test_rollout_deriv_mse,val_objective
+1,0.0,0,0.58301532,-0.0368820105,0.627712663,0.00498448763,-0.168516954,23.0,1.0,1.0,10.0,0.6915573440004336,19.39725255612745,5.887237098989517,1.2033356138703185e-07,1.212374522034725e-07,2.099199929484654e-08,1.212374522034725e-07

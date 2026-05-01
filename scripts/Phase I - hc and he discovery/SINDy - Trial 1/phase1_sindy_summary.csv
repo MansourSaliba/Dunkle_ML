@@ -1,0 +1,3 @@
+target,selected_threshold,n_nonzero,train_mse,val_mse,test_mse,train_rmse,val_rmse,test_rmse,train_r2,val_r2,test_r2,test_points,coefficients_file,selection_file,loss_plot_file,equation
+hc,0.0029436449731708647,1,2.25155410579582e-27,1.909908791723666e-27,1.0268827228619898e-27,4.745054378819931e-14,4.3702503266102117e-14,3.204501088877939e-14,1.0,1.0,1.0,125,sindy_coefficients_hc.csv,sindy_selection_hc.csv,sindy_loss_progress_hc.png,hc = (8.84000000e-01)*compound_cuberoot
+he,0.0031563722512591512,1,4.192766242307816e-28,4.663822013044546e-29,2.2957430063741886e-29,2.047624536458727e-14,6.8292181199933465e-15,4.791391245112622e-15,1.0,1.0,1.0,125,sindy_coefficients_he.csv,sindy_selection_he.csv,sindy_loss_progress_he.png,he = (1.62730000e-02)*hc*dP_over_dT
