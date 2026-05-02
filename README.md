@@ -1,8 +1,13 @@
-# Dunkle_ML
+## Data-Driven Discovery of the Dunkle Model: A Comparative Assessment
 
-This repository contains the scripts and data artifacts used to reproduce Phase I and Phase II modeling results for the Dunkle solar still system. The layout is scripts-first and organized by phase, with synthetic data included and experimental data documented as restricted.
+## Project Overview
+
+This project aims at investigating the potential of three physics-informed machine learning architectures in discovering a simpler and interpretable, yet still generalizable, Dunkle model. It follows two phases, one uncovering the empirical heat transfer coefficients discovered by Dunkle in 1961 and another seeking to find the ODE outlining the dynamics of water temperature. Results are promising, showcasing accurate recovery of simpler dynamics and hence provide a basic framework hopefully incentivizing further applications of such architectures in the field of solar still modeling.
+
 
 ## Repository Layout
+
+This repository contains the scripts and data artifacts used to reproduce Phase I and Phase II modeling results for the Dunkle solar still system. The layout is scripts-first and organized by phase, with synthetic data included and experimental data documented as restricted.
 
 - [data/](data/) raw/interim/processed data folders with details in [data/raw/README.md](data/raw/README.md), [data/interim/README.md](data/interim/README.md), and [data/processed/README.md](data/processed/README.md)
 - [docs/](docs/) project report and presentation PDFs
@@ -17,7 +22,7 @@ This repository contains the scripts and data artifacts used to reproduce Phase 
 
 ## Data Policy
 
-Synthetic data is provided under [data/processed/](data/processed). Experimental data is restricted and documented in [DATA.md](DATA.md). The scripts that require experimental data will not run without the private workbook described there.
+Synthetic data is provided under [data/processed/](data/processed). Experimental data is restricted and documented in [DATA.md](DATA.md). The scripts that require experimental data will not run without access request to experimental data.
 
 ## How To Reproduce The Work
 
